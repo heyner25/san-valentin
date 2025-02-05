@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz San Valentín, Evelyn Claudia! ❤️</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: pink;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        .heart {
+            color: red;
+            font-size: 50px;
+            animation: heartbeat 1s infinite alternate;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.2); }
+        }
+        .message {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="heart">❤️</div>
+        <h1>Feliz San Valentín, mi amor! 💕</h1>
+        <p class="message">Eres mi alegría y mi razón de sonreír cada día. Te amo con todo mi corazón. ❤️</p>
+    </div>
+</body>
+</html>
